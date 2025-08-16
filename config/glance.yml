@@ -6,6 +6,11 @@ theme:
   # will not be reflected until the browser cache is cleared (Ctrl+F5)
   custom-css-file: /assets/user.css
   disable-picker: true
+  presets:
+    gruvbox-dark:
+    background-color: 50 1 6
+    primary-color: 24 97 58
+    negative-color: 209 88 54
 
 pages:
   # It's not necessary to create a new file for each page and include it, you can simply

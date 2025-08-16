@@ -22,8 +22,12 @@
 #              title: Ahmad Shadeed
 
         - type: twitch-channels
+          sort-by: live
+          collapse-after: -1
           channels:
+            - brodieongames
             - christitustech
+            - twit
 
     - size: full
       widgets:

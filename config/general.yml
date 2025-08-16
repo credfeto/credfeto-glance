@@ -22,11 +22,15 @@
 #              title: Ahmad Shadeed
 
         - type: twitch-channels
+          sort-by: live
+          collapse-after: -1
           channels:
+            - alanna_matty
             - arianna
-            - christitustech
             - paultentertainer
+            - progrockpianobar
             - sleepypan
+            - signiamusic
             - treecle
             - viev
 
