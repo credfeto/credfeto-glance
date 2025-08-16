@@ -23,12 +23,12 @@
 
         - type: twitch-channels
           channels:
-            - theprimeagen
-            - j_blow
-            - giantwaffle
-            - cohhcarnage
+            - arianna
             - christitustech
-            - EJ_SA
+            - paultentertainer
+            - sleepypan
+            - treecle
+            - viev
 
     - size: full
       widgets:
@@ -39,42 +39,27 @@
 
         - type: videos
           channels:
-            - UCXuqSBlHAE6Xw-yeJA0Tunw # Linus Tech Tips
             - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
-            - UCsBjURrPoezykLs9EqgamOA # Fireship
-            - UCBJycsmduvYEL83R_U4JriQ # Marques Brownlee
-            - UCHnyfMqiRRG1u-2MsSQLbXA # Veritasium
-
-        - type: group
-          widgets:
-            - type: reddit
-              subreddit: technology
-              show-thumbnails: true
-            - type: reddit
-              subreddit: selfhosted
-              show-thumbnails: true
 
     - size: small
       widgets:
         - type: weather
-          location: London, United Kingdom
+          location: Harlow, United Kingdom
           units: metric # alternatively "imperial"
-          hour-format: 12h # alternatively "24h"
+          hour-format: 24h # alternatively "24h"
           # Optionally hide the location from being displayed in the widget
-          # hide-location: true
+          hide-location: true
 
         - type: markets
           markets:
-            - symbol: SPY
-              name: S&P 500
             - symbol: BTC-USD
               name: Bitcoin
-            - symbol: NVDA
-              name: NVIDIA
-            - symbol: AAPL
-              name: Apple
-            - symbol: MSFT
-              name: Microsoft
+            - symbol: ETH-USD
+              name: Ethereum
+            - symbol: UPXI
+              name: UPXI
+            - symbol: SBET
+              name: SBET
 
         - type: releases
           cache: 1d
@@ -83,6 +68,6 @@
           # token: ...
           repositories:
             - glanceapp/glance
-            - go-gitea/gitea
             - immich-app/immich
-            - syncthing/syncthing
+            - credfeto/credfeto-date
+            - credfeto/credfeto-database-source-generator
