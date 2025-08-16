@@ -35,11 +35,11 @@
         - type: group
           widgets:
             - type: hacker-news
-            - type: lobsters
 
         - type: videos
           channels:
             - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
+            - UCld68syR8Wi-GY_n4CaoJGA # Brodie Robertson
 
     - size: small
       widgets:
