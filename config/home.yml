@@ -32,9 +32,9 @@
 
     - size: full
       widgets:
-        - type: group
-          widgets:
-            - type: hacker-news
+#        - type: group
+#          widgets:
+#            - type: hacker-news
 
         - type: videos
           channels:
@@ -71,3 +71,14 @@
             - immich-app/immich
             - credfeto/credfeto-date
             - credfeto/credfeto-database-source-generator
+            - credfeto/credfeto-version-constants-generator
+            - credfeto/credfeto-services-startup
+            - credfeto/credfeto-random
+            - credfeto/credfeto-extensions-linq
+            - credfeto/credfeto-enum-source-generation
+            - credfeto/changelog-manager
+            - credfeto/UpdatePackages
+            - credfeto/credfeto-dotnet-repo-tools
+            - credfeto/credfeto-docker-http-healthcheck-client
+            - credfeto/credfeto-tsql-format
+            - credfeto/nuget-multi-push
