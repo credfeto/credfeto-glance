@@ -65,7 +65,7 @@
           cache: 1d
           # Without authentication the Github API allows for up to 60 requests per hour. You can create a
           # read-only token from your Github account settings and use it here to increase the limit.
-          # token: ...
+          token: ${GITHUB_TOKEN}
           repositories:
             - NethermindEth/nethermind
             - ethereum/go-ethereum
