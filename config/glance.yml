@@ -13,6 +13,9 @@ pages:
   - $include: general.yml
   - $include: linux.yml
   - $include: crypto.yml
+  - $include: dotnet.yml
+  - $include: ai.yml
+  - $include: security.yml
 
 branding:
   app-name: Mark Ridgwell

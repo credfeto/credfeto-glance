@@ -1,0 +1,63 @@
+- name: DotNet
+  # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
+  # hide-desktop-navigation: true
+  columns:
+    - size: small
+      widgets:
+        - type: calendar
+          first-day-of-week: monday
+
+#        - type: bookmarks
+#          groups:
+#            - links:
+#                - title: Phoronix
+#                  url: https://www.phoronix.com/
+#                - title: linuxiac
+#                  url: https://linuxiac.com/
+#
+#        - type: rss
+#          limit: 10
+#          collapse-after: 3
+#          cache: 12h
+#          feeds:
+#            - url: https://archlinux.org/feeds/planet/
+#              title: Planet Arch Linux
+#            - url: https://archlinux.org/feeds/news/
+#              title: "Arch Linux: Recent News"
+#
+#        - type: twitch-channels
+#          sort-by: live
+#          collapse-after: -1
+#          channels:
+#            - brodieongames
+#            - christitustech
+#            - twit
+
+    - size: full
+      widgets:
+#        - type: group
+#          widgets:
+#            - type: hacker-news
+
+        - type: videos
+          style: grid-cards
+          channels:
+            - UCrkPsvLGln62OMZRO6K-llg # Nick Chapsas
+
+
+    - size: small
+      widgets:
+        - type: weather
+          location: Harlow, United Kingdom
+          units: metric # alternatively "imperial"
+          hour-format: 24h # alternatively "24h"
+          # Optionally hide the location from being displayed in the widget
+          hide-location: true
+
+        - type: releases
+          cache: 1d
+          # Without authentication the Github API allows for up to 60 requests per hour. You can create a
+          # read-only token from your Github account settings and use it here to increase the limit.
+          token: ${GITHUB_TOKEN}
+          repositories:
+            - dotnet/runtime
