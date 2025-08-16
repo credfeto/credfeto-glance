@@ -7,19 +7,23 @@
         - type: calendar
           first-day-of-week: monday
 
-#        - type: rss
-#          limit: 10
-#          collapse-after: 3
-#          cache: 12h
-#          feeds:
-#            - url: https://selfh.st/rss/
-#              title: selfh.st
-#            - url: https://ciechanow.ski/atom.xml
-#            - url: https://www.joshwcomeau.com/rss.xml
-#              title: Josh Comeau
-#            - url: https://samwho.dev/rss.xml
-#            - url: https://ishadeed.com/feed.xml
-#              title: Ahmad Shadeed
+    - type: bookmarks
+      groups:
+        - links:
+            - title: Phoronix
+              url: https://www.phoronix.com/
+            - title: linuxiac
+              url: https://linuxiac.com/
+
+        - type: rss
+          limit: 10
+          collapse-after: 3
+          cache: 12h
+          feeds:
+            - url: https://archlinux.org/feeds/planet/
+              title: Planet Arch Linux
+            - url: https://archlinux.org/feeds/news/
+              title: "Arch Linux: Recent News"
 
         - type: twitch-channels
           sort-by: live
@@ -41,6 +45,8 @@
             - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
             - UCld68syR8Wi-GY_n4CaoJGA # Brodie Robertson
             - UCBq5p-xOla8xhnrbhu8AIAg # Tech Over Tea
+            - UC5UAwBUum7CPN5buc-_N1Fw # The Linux Experiment
+            - UCYC2q8v_LhJ5xrC1wG_4ObQ # FLOSS Weekly
 
 
     - size: small

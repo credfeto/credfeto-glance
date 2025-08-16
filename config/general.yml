@@ -72,17 +72,6 @@
           # Optionally hide the location from being displayed in the widget
           hide-location: true
 
-#        - type: markets
-#          markets:
-#            - symbol: BTC-USD
-#              name: Bitcoin
-#            - symbol: ETH-USD
-#              name: Ethereum
-#            - symbol: UPXI
-#              name: UPXI
-#            - symbol: SBET
-#              name: SBET
-
         - type: releases
           cache: 1d
           # Without authentication the Github API allows for up to 60 requests per hour. You can create a
@@ -90,3 +79,4 @@
           # token: ${GITHUB_TOKEN}
           repositories:
             - home-assistant/core
+            - home-assistant/operating-system
