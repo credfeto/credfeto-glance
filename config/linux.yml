@@ -7,13 +7,13 @@
         - type: calendar
           first-day-of-week: monday
 
-    - type: bookmarks
-      groups:
-        - links:
-            - title: Phoronix
-              url: https://www.phoronix.com/
-            - title: linuxiac
-              url: https://linuxiac.com/
+        - type: bookmarks
+          groups:
+            - links:
+                - title: Phoronix
+                  url: https://www.phoronix.com/
+                - title: linuxiac
+                  url: https://linuxiac.com/
 
         - type: rss
           limit: 10
