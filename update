@@ -1,0 +1,15 @@
+#! /bin/sh
+
+#[ -d "/data/gickup" ] || sudo mkdir -p "/data/gickup"
+
+git pull
+
+#
+#sudo docker volume create \
+#  --opt type=none \
+#  --opt o=bind \
+#  --opt device=/data/gickup \
+#  gickup_data
+
+
+sudo docker compose pull && sudo docker compose up -d
