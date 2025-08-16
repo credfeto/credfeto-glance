@@ -32,6 +32,7 @@
 #            - type: hacker-news
 
         - type: videos
+          style: grid-cards
           channels:
             - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
             - UCld68syR8Wi-GY_n4CaoJGA # Brodie Robertson
