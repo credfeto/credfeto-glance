@@ -1,4 +1,14 @@
 services:
+  cloudflare-proxy:
+    image: cloudflare/cloudflared:latest
+    container_name: registry_cloudflare
+    restart: always
+    command: tunnel --no-autoupdate run --token $CLOUDFLARE_TUNNEL_TOKEN
+    depends_on:
+      glance:
+        condition: service_started
+#        condition: service_healthy
+
   glance:
     container_name: glance
     image: glanceapp/glance
