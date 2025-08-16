@@ -1,0 +1,57 @@
+- name: Linux
+  # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
+  # hide-desktop-navigation: true
+  columns:
+    - size: small
+      widgets:
+        - type: calendar
+          first-day-of-week: monday
+
+#        - type: rss
+#          limit: 10
+#          collapse-after: 3
+#          cache: 12h
+#          feeds:
+#            - url: https://selfh.st/rss/
+#              title: selfh.st
+#            - url: https://ciechanow.ski/atom.xml
+#            - url: https://www.joshwcomeau.com/rss.xml
+#              title: Josh Comeau
+#            - url: https://samwho.dev/rss.xml
+#            - url: https://ishadeed.com/feed.xml
+#              title: Ahmad Shadeed
+
+        - type: twitch-channels
+          channels:
+            - christitustech
+
+    - size: full
+      widgets:
+#        - type: group
+#          widgets:
+#            - type: hacker-news
+
+        - type: videos
+          channels:
+            - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
+            - UCld68syR8Wi-GY_n4CaoJGA # Brodie Robertson
+            - UCBq5p-xOla8xhnrbhu8AIAg # Tech Over Tea
+
+
+    - size: small
+      widgets:
+        - type: weather
+          location: Harlow, United Kingdom
+          units: metric # alternatively "imperial"
+          hour-format: 24h # alternatively "24h"
+          # Optionally hide the location from being displayed in the widget
+          hide-location: true
+
+        - type: releases
+          cache: 1d
+          # Without authentication the Github API allows for up to 60 requests per hour. You can create a
+          # read-only token from your Github account settings and use it here to increase the limit.
+          # token: ...
+          repositories:
+            - glanceapp/glance
+            - immich-app/immich
