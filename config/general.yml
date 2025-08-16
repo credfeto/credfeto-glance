@@ -38,11 +38,16 @@
 
         - type: videos
           channels:
-            - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
-            - UCld68syR8Wi-GY_n4CaoJGA # Brodie Robertson
-            - UCBq5p-xOla8xhnrbhu8AIAg # Tech Over Tea
-            - UCAl9Ld79qaZxp9JzEOwd3aA # Bankless
-            - UCCRxYlYOmLE2l5wxs3ckJtg # Limitless
+            - UC3fqrmSkFjmkGGBPkoBO1GQ # Martin Zero
+            - UCk1qvhkPMbF703QHR8qj8og # John Rogers
+            - UCR_i-r3a0vnlUJxEN4_5l3g # Calum
+            - UCsd6hP-zzIkCpw8XGw7Osyw # Geerling Engineering
+            - UCKd49wwdEdIoM-7Fumhwmog # Quint Builds
+            - UC6107grRI4m0o2-emgoDnAA # Smarter Every Day
+            - UCj1VqrHhDte54oLgPG4xpuQ # Stuff Made Here
+            - UCUK0HBIBWgM2c4vsPhkYY4w # The Slow Mode Guys
+            - UCQNDPqDUywaSJeminGoouDg # Walking The Wyrd
+            - UCb0MyY46T9ZYOzDHkYnIoXg # PLainly Difficult
 
     - size: small
       widgets:
@@ -53,16 +58,16 @@
           # Optionally hide the location from being displayed in the widget
           hide-location: true
 
-        - type: markets
-          markets:
-            - symbol: BTC-USD
-              name: Bitcoin
-            - symbol: ETH-USD
-              name: Ethereum
-            - symbol: UPXI
-              name: UPXI
-            - symbol: SBET
-              name: SBET
+#        - type: markets
+#          markets:
+#            - symbol: BTC-USD
+#              name: Bitcoin
+#            - symbol: ETH-USD
+#              name: Ethereum
+#            - symbol: UPXI
+#              name: UPXI
+#            - symbol: SBET
+#              name: SBET
 
 #        - type: releases
 #          cache: 1d
