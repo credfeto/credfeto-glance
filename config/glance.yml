@@ -12,7 +12,7 @@ pages:
   # put its contents here, though multiple pages are easier to manage when separated
   - $include: general.yml
   - $include: linux.yml
-  - $include: crypto.yml
+  - $include: markets.yml
   - $include: dotnet.yml
   - $include: ai.yml
   - $include: security.yml

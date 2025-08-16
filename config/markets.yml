@@ -1,4 +1,4 @@
-- name: Crypto
+- name: Markets
   # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
   # hide-desktop-navigation: true
   columns:
@@ -7,28 +7,15 @@
         - type: calendar
           first-day-of-week: monday
 
-#        - type: rss
-#          limit: 10
-#          collapse-after: 3
-#          cache: 12h
-#          feeds:
-#            - url: https://selfh.st/rss/
-#              title: selfh.st
-#            - url: https://ciechanow.ski/atom.xml
-#            - url: https://www.joshwcomeau.com/rss.xml
-#              title: Josh Comeau
-#            - url: https://samwho.dev/rss.xml
-#            - url: https://ishadeed.com/feed.xml
-#              title: Ahmad Shadeed
-
-#        - type: twitch-channels
-#          channels:
-#            - arianna
-#            - christitustech
-#            - paultentertainer
-#            - sleepypan
-#            - treecle
-#            - viev
+        - type: rss
+          limit: 10
+          collapse-after: 3
+          cache: 12h
+          feeds:
+            - url: https://www.ft.com/technology?format=rss
+              title: Financial Times
+            - url: https://feeds.a.dj.com/rss/RSSMarketsMain.xml
+              title: Wall Street Journal
 
     - size: full
       widgets:
@@ -39,8 +26,10 @@
         - type: videos
           style: grid-cards
           channels:
+            - UCvSXMi2LebwJEM1s4bz5IBA # New Money
+            - UCV6KDgJskWaEckne5aPA0aQ # Graham Stephan
+            - UCAzhpt9DmG6PnHXjmJTvRGQ # Federal Reserve
             - UCAl9Ld79qaZxp9JzEOwd3aA # Bankless
-            - UCCRxYlYOmLE2l5wxs3ckJtg # Limitless
 
     - size: small
       widgets:
@@ -52,6 +41,16 @@
           hide-location: true
 
         - type: markets
+          title: Indices
+          markets:
+            - symbol: SPY
+              name: S&P 500
+            - symbol: DX-Y.NYB
+              name:
+                Dollar Index
+
+        - type: markets
+          title: Ccrypto
           markets:
             - symbol: BTC-USD
               name: Bitcoin
@@ -61,6 +60,25 @@
               name: UPXI
             - symbol: SBET
               name: SBET
+
+        - type: markets
+          title: Stocks
+          sort-by: absolute-change
+          markets:
+            - symbol: NVDA
+              name: NVIDIA
+            - symbol: AAPL
+              name: Apple
+            - symbol: MSFT
+              name: Microsoft
+            - symbol: GOOGL
+              name: Google
+            - symbol: AMD
+              name: AMD
+            - symbol: AMZN
+              name: Amazon
+            - symbol: INTC
+              name: Intel
 
         - type: releases
           cache: 1d
