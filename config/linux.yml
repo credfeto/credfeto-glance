@@ -43,11 +43,13 @@
           style: grid-cards
           channels:
             - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
+            - UCzgA9CBrIXPtkB2yNTTiy1w # Level 2 Jeff
             - UCld68syR8Wi-GY_n4CaoJGA # Brodie Robertson
             - UCBq5p-xOla8xhnrbhu8AIAg # Tech Over Tea
             - UC5UAwBUum7CPN5buc-_N1Fw # The Linux Experiment
             - UCYC2q8v_LhJ5xrC1wG_4ObQ # FLOSS Weekly
             - UCylGUf9BvQooEFjgdNudoQg # The Linux Cast
+            - UC05XpvbHZUQOfA6xk4dlmcw # DJWare
 
 
     - size: small
