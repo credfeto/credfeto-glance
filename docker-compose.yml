@@ -13,7 +13,7 @@ services:
     image: cloudflare/cloudflared:latest
     container_name: glances_cloudflare
     restart: always
-    command: tunnel --no-autoupdate run --token $CLOUDFLARE_TUNNEL_TOKEN
+    command: tunnel --no-autoupdate run --token $CLOUDFLARE_TUNNEL_TOKEN --upstream https://1.1.1.1/dns-query
     depends_on:
       glance:
         condition: service_started
