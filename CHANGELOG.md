@@ -12,9 +12,13 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Added .ai-instructions and ai/local/index.md from cs-template standard
 ### Fixed
 ### Changed
+- Replaced the Watchtower WATCHTOWER_POLL_INTERVAL setting with WATCHTOWER_CLEANUP and a configurable WATCHTOWER_SCHEDULE (defaults to every hour at 30 minutes past), so image update checks run on a schedule that can be tuned per deployment
+### Deprecated
 ### Removed
 ### Deployment Changes
+
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+
 ## [0.0.0] - Project created
