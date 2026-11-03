@@ -1,4 +1,5 @@
----
+# yamllint disable rule:document-start
+# Included into glance.yml via $include, so no "---" document marker here (it breaks the include).
 - name: Security
   # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
   # hide-desktop-navigation: true
